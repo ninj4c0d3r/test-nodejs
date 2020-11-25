@@ -1,20 +1,11 @@
 {
-  "name": "nodejs-hello-world",
+  "name": "webshell",
   "version": "1.0.0",
-  "description": "Hello World sample app",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "id | node index.js",
-    "test": "id | echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/fhinkel/nodejs-hello-world.git"
-  },
-  "author": "fhinkel",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/fhinkel/nodejs-hello-world/issues"
-  },
-  "homepage": "https://github.com/fhinkel/nodejs-hello-world#readme"
+  "author": "@exploitation",
+  "license": "ISC"
 }
